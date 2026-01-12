@@ -1139,10 +1139,13 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.8), rgba(19, 21, 25, 0.8)), url("../../images/overlay.png");
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1155,7 +1158,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/DSCF8093.JPEG");
+			
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1656,3 +1660,74 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Intro Image */
+#daniel{
+	width: 50%;
+	margin-left: 25%;
+}
+
+.image.no-overlay:before{
+	content: none;
+}
+
+/* Intro Link to the Work Page */
+#to-work-page a h4{
+	display: inline-block;
+	border-bottom: solid 1px #ffffff;
+}
+#to-work-page a h4:hover{
+	border-bottom-color: #ffffff;
+	border-bottom: none;
+}
+
+/* Work Galary */
+.galary-1{
+	display: flex;
+}
+.galary-1 div{
+	margin: 10px;
+}
+	/* Text */
+	.galary-1 div#galary-text{
+		margin-right: 5%;
+		text-align: justify;
+	}
+
+	.galary-1 div#galary-text a p{
+
+		font-weight: bold;
+	}
+	#daniel-instagram a p{
+		display: inline-block;
+		border-bottom: solid 1px #ffffff;
+
+	}
+	#daniel-instagram a p:hover{
+		border-bottom: none;
+
+	}
+
+
+	h3.title{
+		display: inline-block;
+		border-bottom: solid 1px #ffffff;
+
+	}
+
+	/* Image */
+	#galary-image a{
+		border-bottom: none;
+	}
+/* Contact */
+#contact p span.contact{
+	font-weight: bold;
+}
+
+#contact>p#or{
+	margin-bottom: 0;
+}
+#contact>hr{
+	margin-top: 0%; 
+	width: 3.5%;
+}
