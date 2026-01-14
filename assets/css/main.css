@@ -1672,38 +1672,40 @@ input, select, textarea {
 }
 
 /* Intro Link to the Work Page */
-#to-work-page a h4{
+#to-work-page{
+	font-weight: bold;
+}
+#to-work-page a{
 	display: inline-block;
 	border-bottom: solid 1px #ffffff;
 }
-#to-work-page a h4:hover{
-	border-bottom-color: #ffffff;
+#to-work-page a:hover{
 	border-bottom: none;
 }
 
-/* Work Galary */
-.galary-1{
+/* Work gallery */
+.gallery-1{
 	display: flex;
 }
-.galary-1 div{
+.gallery-1 div{
 	margin: 10px;
 }
 	/* Text */
-	.galary-1 div#galary-text{
+	.gallery-1 div#gallery-text{
 		margin-right: 5%;
 		text-align: justify;
 	}
 
-	.galary-1 div#galary-text a p{
+	.gallery-1 div#gallery-text p a{
 
 		font-weight: bold;
 	}
-	#daniel-instagram a p{
+	#daniel-instagram p a{
 		display: inline-block;
 		border-bottom: solid 1px #ffffff;
 
 	}
-	#daniel-instagram a p:hover{
+	#daniel-instagram p a:hover{
 		border-bottom: none;
 
 	}
@@ -1716,18 +1718,21 @@ input, select, textarea {
 	}
 
 	/* Image */
-	#galary-image a{
+	#gallery-image a{
 		border-bottom: none;
 	}
-/* Contact */
-#contact p span.contact{
-	font-weight: bold;
-}
+	#gallery-image a img{
+		width: 100%;
+	}
+	.gallery-2 img{
+		width: 100%;
+	}
+	.gallery-2 p{
+		text-align: justify;
+	}
 
-#contact>p#or{
-	margin-bottom: 0;
-}
-#contact>hr{
-	margin-top: 0%; 
-	width: 3.5%;
+/* Contact */
+#contact h3{
+	margin-left: 35%;
+
 }

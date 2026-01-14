@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Daniel's Portfolio</title>
 		<meta charset="utf-8" />
@@ -30,7 +30,7 @@
 									and experience in CyberSecurity</p>
 							</div>
 						</div>
-						<nav>
+						<nav aria-label="Primary navigation">
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#work">Work</a></li>
@@ -40,59 +40,63 @@
 					</header>
 
 				<!-- Main -->
-					<div id="main">
+					<main id="main">
 
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">About Daniel</h2>
 
-								<span class="image main no-overlay">
+								<figure class="image main no-overlay">
 									<img src="images/DSCF8093.jpg" alt="a portrait of Daniel Le" id="daniel"/>
-								</span>
+								</figure>
 
 								<p>My name is Daniel Le, I am a software developer/cybersecurity based out of Seattle, Washington. My primary skills focus on HTML, CSS, Javascript, Python and C#. Before that my background was in digital marketing, traditional marketing and sale related. On top of that, I also have 7+ years working in a higher education as an Office Assistant, Bellevue College Ambassador and a Lead Peer Educator.</p>
 								
 								<p>Besides all my primary skills, I am a videographer, photographer here in Seattle as well. I have been on various project from music videos to cars. As much as I enjoy doing music videos and cars content, my main focus is nature photography and videography. Some of which are also shown in the work page.</p>
 
-								<span id="to-work-page">
+								<p id="to-work-page">
 									<a href="#work">
-										<h4>Go to Work Page <i class="fas fa-arrow-right"></i></h4>
+										Go to Work Page <i class="fas fa-arrow-right"></i>
 									</a>
-								</span>
+								</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/IMG_4144.JPG" alt="" /></span>
+								<figure class="image main"><img src="images/IMG_4144.JPG" alt="A banner for the work page" /></figure>
 
 								<!-- Photography & Videography Work -->
-								<h3 class="title">Photography & Videography Work</h3>
-								<div class="galary-1">
-									<div id="galary-text">
-										<p>Mother nature has created these artifacts as beautiful as it is. To me adding a little bit of colors and vignette to these photos really creates a focus and a dramatic effect some of which I really like. Looking at these photos you might think there are a lot of editing involve, but no. My style of editing is to really retain as true to the actual color as I can while enhancing the look of the image and make it pop. Pretty much what you see in the photo is what you expect to see in real life.</p>
-										<span id="daniel-instagram">
-											<a href="https://www.instagram.com/p/DQ8rY6dkfl0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
-												<p>More of content on my Instagram</p>
+								<section aria-labelledby="photo-work">
+									<h3 id="photo-work" class="title">Photography & Videography Work</h3>
+									<div class="gallery-1">
+										<div id="gallery-text">
+											<p>Mother nature has created these artifacts as beautiful as it is. To me adding a little bit of colors and vignette to these photos really creates a focus and a dramatic effect some of which I really like. Looking at these photos you might think there are a lot of editing involve, but no. My style of editing is to really retain as true to the actual color as I can while enhancing the look of the image and make it pop. Pretty much what you see in the photo is what you expect to see in real life.</p>
+											<div id="daniel-instagram">
+												<p>
+													<a href="https://www.instagram.com/p/DQ8rY6dkfl0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" aria-label="More of my content on my Instagram (opens in a new tab)">More of my content on my Instagram</a>
+												</p>
+											</div>
+										</div>
+										<figure id="gallery-image">
+											<a href="https://www.instagram.com/p/DQ8rY6dkfl0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" aria-label="More of my content on my Instagram (opens in a new tab)">
+												<img src="images/IMG_4036.JPG" alt="A photo of mount Rainier" >
 											</a>
-										</span>
+											<figcaption>@cinedan - instagram</figcaption>
+										</figure>
+										
 									</div>
-									<div id="galary-image">
-										<a href="https://www.instagram.com/p/DQ8rY6dkfl0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
-											<img src="images/IMG_4036.JPG" alt="A photo of mount Rainier" style="width: 100%;">
-										</a>
-										<figcaption>@cinedan - instagram</figcaption>
-									</div>
-									
-								</div>
+								</section>
 
 								<!-- Web Development Work -->
 								<hr>
-								<h3 class="title">Web Development Work</h3>
-								<div class="galary-2">
-									<img src="images/Screenshot 2026-01-11 at 5.54.41 PM.png" alt="A Screenshot of the CollegeIns Homepage" style="width: 100%;">
-									<p>This website was created for our final project in DEV 109 - Introduction to Web Development. Even though this is just the client size with some functional visual demonstration. The purpose of this site to help prospective student to make an inform decision on which college would suit best for them. The site provides data, analysis and summary of the colleges that shows the strength and weaknesses of each college. Other additional resources that they provide is also highlighted by the colleges that choose to share their information through the services of this site. That being said, CollegeIns is also designed so that colleges can integrate and design their information in a way that comply their marketing and communication policy, but still transparently reveal the real charateristic of the college. <br><br>NOTE: This is just a prototype and it is not fully functional as expected.</p>
-								</div>
+								<section aria-labelledby="web-work">
+									<h3 id="web-work" class="title">Web Development Work</h3>
+									<div class="gallery-2">
+										<img src="images/Screenshot 2026-01-11 at 5.54.41 PM.png" alt="A Screenshot of the CollegeIns Homepage" >
+										<p>This website was created for our final project in DEV 109 - Introduction to Web Development. Even though this is just the client size with some functional visual demonstration. The purpose of this site to help prospective student to make an inform decision on which college would suit best for them. The site provides data, analysis and summary of the colleges that shows the strength and weaknesses of each college. Other additional resources that they provide is also highlighted by the colleges that choose to share their information through the services of this site. That being said, CollegeIns is also designed so that colleges can integrate and design their information in a way that comply their marketing and communication policy, but still transparently reveal the real charateristic of the college. <br><br>NOTE: This is just a prototype and it is not fully functional as expected.</p>
+									</div>
+								</section>
 							</article>
 							
 						<!-- Contact -->
@@ -100,6 +104,8 @@
 								<h2 class="major">Contact</h2>
 
 								<!-- Contact form -->
+								<h3>Send a Message</h3>
+								<br>
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -108,7 +114,7 @@
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="email" name="email" id="email" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
@@ -122,20 +128,22 @@
 								</form>
 								<br>
 								<!-- Personal Contact Information -->
-								<p id="or">OR</p>
-								<hr>
 
-								<p><span class="contact">Email: </span><a href="mailto:d.daniel.le@gmail.com">d.daniel.le@gmail.com</a></p>
-								<p><span class="contact">Phone: </span><a href="tel:+14255642227">425-564-2227 </a></p>
+								<h3>Contact Details</h3>
+								<address>
+									<p><strong>Email: </strong><a href="mailto:d.daniel.le@gmail.com">d.daniel.le@gmail.com</a></p>
+									<p><strong>Phone: </strong><a href="tel:+14255642227">425-564-2227 </a></p>	
+								</address>
 
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/daniel-le-896840195/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://www.facebook.com/danielminhducle/" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/cinedan/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+								<h3 id="social" hidden>Social Links</h3>
+								<ul class="icons" aria-labelledby="social">
+									<li><a href="https://www.linkedin.com/in/daniel-le-896840195/" class="icon brands fa-linkedin-in" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://www.facebook.com/danielminhducle/" class="icon brands fa-facebook-f" target="_blank" rel="noopener noreferrer" aria-label="Facebook (opens in a new tab)"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/cinedan/" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in a new tab)"><span class="label">Instagram</span></a></li>
 								</ul>
 							</article>
 
-					</div>
+					</main>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -145,7 +153,7 @@
 			</div>
 
 		<!-- BG -->
-			<div id="bg"></div>
+			<div id="bg" aria-hidden="true"></div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
